@@ -14,6 +14,7 @@ public class GameTests {
     String[] guesses;
 
     Game game;
+
     @Before
     public void before() {
         game = new Game(0, 0);
@@ -23,8 +24,6 @@ public class GameTests {
         allShipCoordinates.add("3:3");
         allShipCoordinates.add("3:5");
         allShipCoordinates.add("3:4");
-
-
     }
     @Test
     public void canCreateShip(){
