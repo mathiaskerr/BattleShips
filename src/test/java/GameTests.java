@@ -6,15 +6,10 @@ import java.util.ArrayList;
 import static org.junit.Assert.assertEquals;
 
 public class GameTests {
-
     ArrayList allShipCoordinates;
-
     String[] ships;
-
     String[] guesses;
-
     Game game;
-
     @Before
     public void before() {
         game = new Game(0, 0);

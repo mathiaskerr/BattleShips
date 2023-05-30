@@ -3,7 +3,6 @@ import java.util.Arrays;
 
 public class Game {
     private int shipsSunk;
-
     private int shipsLeft;
 
 public Game(int shipsSunk,  int shipsLeft){
