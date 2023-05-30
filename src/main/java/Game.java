@@ -10,14 +10,11 @@ public Game(int shipsSunk,  int shipsLeft){
     this.shipsSunk = shipsSunk;
     this.shipsLeft = shipsLeft;
 }
-
     public int getShipsSunk() {
         return shipsSunk;
     }
-
     public void setShipsSunk(int shipsSunk) {
         this.shipsSunk = shipsSunk;
-
     }
     public int getShipsLeft() {
         return shipsLeft;
@@ -26,7 +23,6 @@ public Game(int shipsSunk,  int shipsLeft){
     public void setShipsLeft(int shipsLeft) {
         this.shipsLeft = shipsLeft;
     }
-
 
     public ArrayList createShip(String ship) {
         ArrayList<String> allShipCoordinates = new ArrayList<String>();
@@ -108,5 +104,4 @@ public Game(int shipsSunk,  int shipsLeft){
         setShipsLeft(shipsRemaining);
         return ("Ships Sunk = " + getShipsSunk() + ", Ships Left = " + getShipsLeft());
     }
-
 }
